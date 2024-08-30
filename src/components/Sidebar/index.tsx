@@ -42,7 +42,7 @@ const Sidebar = () => {
                     <Link href="/inverter-texto">Inverter texto</Link>
                 </li>
                 <li>
-                    <a href='/remover-espacos'>Remover espaços de texto</a>
+                    <Link href='/remover-espacos'>Remover espaços de texto</Link>
                 </li>
             </ul>
         </div>

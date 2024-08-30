@@ -1,7 +1,7 @@
 "use client"
 import { createContext, useState } from "react";
 
-export const ContextValue = createContext();
+export const ContextValue = createContext(false);
 
 export default function ContextProvider ({children}: {children: React.ReactNode})  {
 
