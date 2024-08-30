@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: 100%;
+  background: #f3f6fd;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.container-content {
+  flex-grow: 5;
+  background-color: #f3f6fd;
+  padding: 20px;
+}
+
+.sidebar-button {
+  text-align: end;
+}
+
+.sidebar-button button {
+  border: none;
+  background: none;
+}
+
+.visibility {
+  display: none;
+}
